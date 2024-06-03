@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksph_230410"]=self["webpackChunksph_230410"]||[]).push([[335],{7335:function(t,n,u){u.r(n),u.d(n,{default:function(){return i}});var r=function(){var t=this,n=t._self._c;return n("div",[n("button",{on:{click:t.cheng}},[t._v("点我将【程程】转为二维码")]),n("img",{attrs:{src:t.url,alt:""}})])},s=[],a=u(7544),c={name:"Test",data(){return{url:""}},methods:{async cheng(){try{const t=await a.toDataURL("程程啊，程程，程程啊，程程，为啥不让我放假啊！");this.url=t}catch(t){}}}},e=c,l=u(1001),h=(0,l.Z)(e,r,s,!1,null,null,null),i=h.exports}}]);
+//# sourceMappingURL=335.41e271aa.js.map
