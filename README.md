@@ -2,6 +2,9 @@
 ## 最大两个问题：
 **（1）不能正常发送ajax请求了
 （2）原地刷新后页面404**
+已云部署到：49.235.165.241
+![截屏2024-06-04 下午3 09 26](https://github.com/Alicca-miao/deployment-of-front-end-E-commerce-platform/assets/171432857/e3bf3544-7a43-4c83-9570-b9f6caa02b3e)
+
 
 
 ### 1. 本地部署
@@ -91,6 +94,7 @@ app.use(
 效果：获取本地ip：ifconfig | grep "inet "
 192.168.31.248
 手机也能访问：
+
 <img width="409" alt="截屏2024-06-03 下午11 20 07" src="https://github.com/Alicca-miao/deployment-of-front-end-E-commerce-platform/assets/171432857/1b35e7ad-4563-40ec-a3da-efa2b7e51ced">
 
 
@@ -232,12 +236,17 @@ location /dev/ {
 这样服务器已经拥有了前端资源，还是要nginx把他跑起来
 进入内置管理器yum：
 在xshell下连接好服务器49.235.165.241后
-yum install nginx
+`yum install nginx`
 
 到/etc/nginx 如果有这个目录就安装成功了
 
+![WechatIMG959](https://github.com/Alicca-miao/deployment-of-front-end-E-commerce-platform/assets/171432857/fd5d9864-bd70-48c3-a4e8-d6d9249990b1)
+
+
+
+
 将原本的nginx.config修改后
-service nginx start
+`service nginx start`
 
 
 
